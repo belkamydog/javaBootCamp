@@ -12,6 +12,7 @@ public class Program {
             if (isPrimeNumber(sumOfDigits(input))) countRequests++;
         }
         System.out.printf("Count of coffee-request – %d", countRequests);
+        scanner.close();
     }
 
     private static int sumOfDigits(int num) {
